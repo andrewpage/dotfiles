@@ -1,0 +1,10 @@
+{
+	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"DashDoc",
+		"Vintage"
+	],
+	"theme": "Spacegray.sublime-theme"
+}
