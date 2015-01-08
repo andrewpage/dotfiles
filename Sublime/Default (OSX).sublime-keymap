@@ -11,5 +11,11 @@
 
 	{ "keys": ["super+shift+o"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
 
-	{ "keys": ["alt+up"], "command": "find_under_expand" }
+	{ "keys": ["alt+up"], "command": "find_under_expand" },
+
+	{ "keys": ["super+-"], "command": "fold" },
+	{ "keys": ["super+="], "command": "unfold" },
+
+	{ "keys": ["shift+super+-"], "command": "fold_by_level", "args": {"level": 1} },
+	{ "keys": ["shift+super+="], "command": "unfold_all" }
 ]
