@@ -24,3 +24,5 @@
 	st = status
 [push]
 	default = matching
+[core]
+	editor = /usr/bin/vim
