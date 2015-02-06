@@ -1,17 +1,17 @@
 {
-    "color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
-    "font_size": 12,
-    "ignored_packages":
-    [
-    "DashDoc",
-    "Vintage"
-    ],
-    "rulers":
-    [
-    90
-    ],
-    "tab_size": 4,
-    "ensure_newline_at_eof_on_save": true,
-    "theme": "Spacegray.sublime-theme",
-    "translate_tabs_to_spaces": true
+	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"DashDoc",
+		"Vintage"
+	],
+	"rulers":
+	[
+		90
+	],
+	"tab_size": 4,
+	"theme": "Spacegray.sublime-theme",
+	"translate_tabs_to_spaces": true
 }
