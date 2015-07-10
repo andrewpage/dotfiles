@@ -1,7 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/andrewpage/Developer/SongSync/SongSyncMac'
-let g:netrw_dirhist_2='/Users/andrewpage/Developer/Ship'
-let g:netrw_dirhist_3='/Users/andrewpage/Developer'
-let g:netrw_dirhist_4='/Users/andrewpage/Developer/Ship/ios/instrumentscli0.trace'
-let g:netrw_dirhist_5='/Users/andrewpage'
+let g:netrw_dirhist_cnt =0

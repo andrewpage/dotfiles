@@ -4,8 +4,8 @@
 	{ "keys": ["super+forward_slash"], "command": "toggle_comment", "args": { "block": false } },
 	{ "keys": ["super+shift+forward_slash"], "command": "toggle_comment", "args": { "block": true } },
 
-	{ "keys": ["super+shift+up"], "command": "swap_line_up" },
-	{ "keys": ["super+shift+down"], "command": "swap_line_down" },
+    { "keys": ["super+shift+up"], "command": "swap_line_up" },
+    { "keys": ["super+shift+down"], "command": "swap_line_down" },
 
 	{ "keys": ["shift+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"} },
 
