@@ -1,7 +1,7 @@
 {
 	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
-	"font_size": 12,
+	"font_size": 13,
 	"ignored_packages":
 	[
 		"DashDoc",
@@ -11,7 +11,7 @@
 	[
 		90
 	],
-	"tab_size": 4,
+	"tab_size": 2,
 	"theme": "Spacegray.sublime-theme",
 	"translate_tabs_to_spaces": true
 }

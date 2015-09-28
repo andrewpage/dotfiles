@@ -10,6 +10,7 @@ export INTERCOM_APP_ID='ju23vvqz'
 export INTERCOM_API_KEY='92742b0690b4398c6b338df8c9a7ed9403094594'
 
 alias cds='cd ~/Developer/Ship'
+alias cdt='cd ~/Developer/TalentVision'
 
 function playground {
     heroku $@ --app shipio-playground
@@ -37,4 +38,13 @@ function scpt {
     echo "SCPing '$origin' through jumphost '$jumphost' to destination '$destination'."
 
     cat < $origin | ssh $jumphost "cat > $origin_filename && scp $origin_filename $destination && rm $origin_filename"
+}
+
+function resetrails {
+    kill -9 $(ps -ef | grep "[s]cript/rails" | awk '{print $2}')
+}
+
+function tfa {
+    destination=$1
+    ssh jh "ssh $destination \"tfa\""
 }
