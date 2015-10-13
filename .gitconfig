@@ -22,7 +22,10 @@
 	plr = pull --rebase
 	lod = log --oneline --decorate
 	st = status
+
 [push]
 	default = matching
+
 [core]
 	editor = /usr/bin/vim
+	excludesfile = /Users/andrewpage/.gitignore
