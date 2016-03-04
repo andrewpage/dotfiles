@@ -1,18 +1,19 @@
 export PATH="/usr/local/bin:$PATH"
 
 # Bash It Stuff
-export BASH_IT="/Users/andrewpage/.bash_it"
+export BASH_IT="$HOME/.bash_it"
 export BASH_IT_THEME="bobby"
-
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-
-# Load Bash It
 source $BASH_IT/bash_it.sh
 
-# Load RVM
-source ~/.profile
+# Heroku
+export PATH="/usr/local/heroku/bin:$PATH"
+
+## Add RVM to PATH for scripting
+export PATH="$PATH:$HOME/.rvm/bin"
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+# RVM
+export PATH="$PATH:$HOME/.rvm/bin"
 source ~/.rvm/scripts/rvm
+
+
