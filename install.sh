@@ -17,4 +17,4 @@ do
   ln -s $DOTFILES/$f $HOME/.$f
 done
 
-
+echo "Done."
