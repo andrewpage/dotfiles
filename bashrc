@@ -1,5 +1,11 @@
 export PATH="/usr/local/bin:$PATH"
 
+# Internal Stuff
+export DEVELOPER="$HOME/Developer"
+export DOTFILES="$DEVELOPER/dotfiles"
+
+source $DEVELOPER/dotfiles/aliases.sh
+
 # Bash It Stuff
 export BASH_IT="$HOME/.bash_it"
 export BASH_IT_THEME="bobby"
