@@ -1,1 +1,11 @@
- 
+Host eac
+	User andrew
+	HostName eacamerica.org
+
+Host personal
+	User andrew
+	HostName andrewpage.me
+
+Host seedbox
+	User pageandrew
+	HostName thoas.feralhosting.com
