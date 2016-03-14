@@ -1,2 +1,5 @@
 alias dev="cd $HOME/Developer"
-alias a_dotfiles="cd $DEVELOPER/dotfiles"
+
+# SSH with my shared personal SSH configuration
+alias pssh="ssh -F $DOTFILES/sshconfig"
+alias pdotfiles="cd $DEVELOPER/dotfiles"
