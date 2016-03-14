@@ -1,2 +1,2 @@
 alias dev="cd $HOME/Developer"
-alias dotfiles="cd $DEVELOPER/dotfiles"
+alias a_dotfiles="cd $DEVELOPER/dotfiles"
