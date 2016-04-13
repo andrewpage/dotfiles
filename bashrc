@@ -6,6 +6,9 @@ export DOTFILES="$DEVELOPER/dotfiles"
 
 source $DEVELOPER/dotfiles/aliases.sh
 
+# Go
+export GOPATH="$DEVELOPER/Go"
+
 # Bash It Stuff
 export BASH_IT="$HOME/.bash_it"
 export BASH_IT_THEME="bobby"
