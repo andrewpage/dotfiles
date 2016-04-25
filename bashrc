@@ -14,6 +14,9 @@ export BASH_IT="$HOME/.bash_it"
 export BASH_IT_THEME="bobby"
 source $BASH_IT/bash_it.sh
 
+# Development
+export EDITOR=$(which atom)
+
 # Heroku
 export PATH="/usr/local/heroku/bin:$PATH"
 
