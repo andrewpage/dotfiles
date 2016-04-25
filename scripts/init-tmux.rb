@@ -11,6 +11,8 @@ CODE_SESSION_REPOSITORIES = %w(agentmachine api jobs agentcrm microsite core_uti
 SERVER_SESSION_NAME = 'servers'
 SERVER_SESSION_BASE_DIR = '$HOME/code'
 
+puts 'Performing tmux initialization.'
+
 # Execute a Tmux command.
 def t_execute(command)
   command = %(tmux #{command})
@@ -42,5 +44,4 @@ end
 # Kill the initial code session bash window
 t_execute %(kill-window -t #{CODE_SESSION_NAME}:0)
 
-# Attach to the code session
-t_execute %(-2 attach-session -t #{CODE_SESSION_NAME})
+puts 'Done.'

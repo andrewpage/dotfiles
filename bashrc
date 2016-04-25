@@ -24,5 +24,3 @@ export PATH="$PATH:$HOME/.rvm/bin"
 # RVM
 export PATH="$PATH:$HOME/.rvm/bin"
 source ~/.rvm/scripts/rvm
-
-
