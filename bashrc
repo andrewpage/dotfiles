@@ -23,7 +23,3 @@ export PATH="/usr/local/heroku/bin:$PATH"
 ## Add RVM to PATH for scripting
 export PATH="$PATH:$HOME/.rvm/bin"
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-
-# RVM
-export PATH="$PATH:$HOME/.rvm/bin"
-source ~/.rvm/scripts/rvm
