@@ -10,7 +10,7 @@ HYPHEN_INSENSITIVE="true"
 DISABLE_AUTO_TITLE="true"
 ENABLE_CORRECTION="true"
 HIST_STAMPS="mm/dd/yyyy"
-plugins=(git rails git ruby)
+plugins=(git rails git ruby vundle)
 
 source $ZSH/oh-my-zsh.sh
 
