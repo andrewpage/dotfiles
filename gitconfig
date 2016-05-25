@@ -28,4 +28,4 @@
 
 [core]
 	editor = /usr/bin/vim
-	excludesfile = /Users/andrewpage/.gitignore
+	excludesfile = ~/.gitignore
