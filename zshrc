@@ -6,6 +6,7 @@ export PATH="/usr/local/bin:$PATH"
 export ZSH=/Users/andrew/.oh-my-zsh
 ZSH_THEME="afowler"
 
+AUTOSUGGESTION_ACCEPT_RIGHT_ARROW=1
 HYPHEN_INSENSITIVE="true"
 DISABLE_AUTO_TITLE="true"
 ENABLE_CORRECTION="true"
