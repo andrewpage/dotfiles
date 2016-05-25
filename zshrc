@@ -1,3 +1,5 @@
+source "${HOME}/.zgen/zgen.zsh"
+
 export EDITOR="vim"
 export TERM='xterm-256color'
 export DEVELOPER="$HOME/Developer" # Path to my workspace
@@ -16,16 +18,10 @@ DISABLE_AUTO_TITLE="true"
 HIST_STAMPS="mm/dd/yyyy"
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=59"
 
-# Configure oh-my-zsh plugins
-plugins=()
-# Git Autocompletion
-plugins+=(git)
-# Functions for easier management of Vundle
-plugins+=(vundle)
-# Colorize man pages
-plugins+=(colored-man-pages)
-# Fish-like autosuggestions for zsh
-plugins+=(zsh-autosuggestions)
+zgen oh-my-zsh plugins/git
+zgen oh-my-zsh plugins/vundle
+zgen oh-my-zsh plugins/colored-man-pages
+zgen load zsh-users/zsh-autosuggestions
 
 # Load custom aliases
 source $DEVELOPER/dotfiles/aliases.sh
