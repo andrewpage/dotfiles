@@ -1,4 +1,3 @@
-
 export EDITOR="vim"
 
 # Make sure that we have terminal colors set correctly
