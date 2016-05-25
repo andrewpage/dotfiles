@@ -10,7 +10,6 @@ ZSH_CUSTOM="$DOTFILES/zsh"
 
 HYPHEN_INSENSITIVE="true"
 DISABLE_AUTO_TITLE="true"
-ENABLE_CORRECTION="true"
 HIST_STAMPS="mm/dd/yyyy"
 
 # Configure oh-my-zsh plugins
