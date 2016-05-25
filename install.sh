@@ -11,7 +11,7 @@ mkdir -p $DEVELOPER
 
 # Symlink Dotfiles
 echo "- Installing dotfiles..."
-for f in bash_profile bashrc gitconfig vimrc tmux.conf
+for f in zshrc gitconfig vimrc tmux.conf
 do
   echo -e "\t- .$f"
   ln -s $DOTFILES/$f $HOME/.$f
