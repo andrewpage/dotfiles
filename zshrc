@@ -6,6 +6,7 @@ export PATH="/usr/local/bin:$PATH"
 export ZSH=/Users/andrew/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 HYPHEN_INSENSITIVE="true"
+DISABLE_AUTO_TITLE="true"
 ENABLE_CORRECTION="true"
 HIST_STAMPS="mm/dd/yyyy"
 plugins=(git rails git ruby)
