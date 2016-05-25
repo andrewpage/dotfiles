@@ -15,8 +15,6 @@ HIST_STAMPS="mm/dd/yyyy"
 plugins=()
 # Git Autocompletion
 plugins+=(git)
-# Rails Autocompletion
-plugins+=(rails)
 # Ruby Autocompletion
 plugins+=(ruby)
 # Functions for easier management of Vundle
