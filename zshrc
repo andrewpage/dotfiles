@@ -10,13 +10,18 @@ HYPHEN_INSENSITIVE="true"
 DISABLE_AUTO_TITLE="true"
 ENABLE_CORRECTION="true"
 HIST_STAMPS="mm/dd/yyyy"
-plugins=()
 
+# Configure oh-my-zsh plugins
+plugins=()
+# Git Autocompletion
 plugins+=(git)
+# Rails Autocompletion
 plugins+=(rails)
-plugins+=(git)
+# Ruby Autocompletion
 plugins+=(ruby)
+# Functions for easier management of Vundle
 plugins+=(vundle)
+# Colorize man pages
 plugins+=(colored-man-pages)
 
 source $ZSH/oh-my-zsh.sh
