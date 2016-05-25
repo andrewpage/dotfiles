@@ -1,16 +1,20 @@
-# Necessary paths
+export EDITOR="vim"
+export TERM='xterm-256color'
 export DEVELOPER="$HOME/Developer" # Path to my workspace
 export DOTFILES="$DEVELOPER/dotfiles" # Path to my personal dotfiles
 
-# oh-my-zsh configuration
-export ZSH=$HOME/.oh-my-zsh
+## Go
+export GOPATH="$DEVELOPER/Go"
+## Homebrew
+export PATH="/usr/local/sbin:$PATH" # Add the sbin to the path
+# Add path for homebrew
+export PATH="/usr/local/bin:$PATH"
 
 ZSH_THEME="afowler"
-ZSH_CUSTOM="$DOTFILES/zsh"
-
 HYPHEN_INSENSITIVE="true"
 DISABLE_AUTO_TITLE="true"
 HIST_STAMPS="mm/dd/yyyy"
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=59"
 
 # Configure oh-my-zsh plugins
 plugins=()
@@ -23,7 +27,8 @@ plugins+=(colored-man-pages)
 # Fish-like autosuggestions for zsh
 plugins+=(zsh-autosuggestions)
 
-source $ZSH/oh-my-zsh.sh
+# Load custom aliases
+source $DEVELOPER/dotfiles/aliases.sh
 
 ## RVM Configuration
 export PATH="$PATH:$HOME/.rvm/bin"
