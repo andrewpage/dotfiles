@@ -21,7 +21,11 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=59"
 zgen oh-my-zsh plugins/git
 zgen oh-my-zsh plugins/vundle
 zgen oh-my-zsh plugins/colored-man-pages
+
+zgen load zsh-users/zsh-completions
 zgen load zsh-users/zsh-autosuggestions
+
+zgen oh-my-zsh themes/afowler
 
 # Load custom aliases
 source $DEVELOPER/dotfiles/aliases.sh
