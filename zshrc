@@ -1,14 +1,10 @@
-
-# Add path for homebrew
-export PATH="/usr/local/bin:$PATH"
-
-# Developer
-export EDITOR="vim"
+# Necessary paths
 export DEVELOPER="$HOME/Developer" # Path to my workspace
 export DOTFILES="$DEVELOPER/dotfiles" # Path to my personal dotfiles
 
 # oh-my-zsh configuration
 export ZSH=/Users/andrew/.oh-my-zsh
+
 ZSH_THEME="afowler"
 ZSH_CUSTOM="$DOTFILES/zsh"
 
@@ -30,16 +26,9 @@ plugins+=(zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
-## Go
-export GOPATH="$DEVELOPER/Go"
-
-## Homebrew
-export PATH="/usr/local/sbin:$PATH" # Add the sbin to the path
-
-source $DEVELOPER/dotfiles/aliases.sh # Load custom aliases
-
 ## RVM Configuration
 export PATH="$PATH:$HOME/.rvm/bin"
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
+# Ensure that all of our keybindings are set up correctly
 bindkey -e
