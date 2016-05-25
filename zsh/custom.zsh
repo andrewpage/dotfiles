@@ -17,5 +17,3 @@ export PATH="/usr/local/bin:$PATH"
 
 # Load custom aliases
 source $DEVELOPER/dotfiles/aliases.sh
-
-
