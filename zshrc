@@ -4,12 +4,14 @@ export PATH="/usr/local/bin:$PATH"
 
 # oh-my-zsh configuration
 export ZSH=/Users/andrew/.oh-my-zsh
-ZSH_THEME="robbyrussell"
+ZSH_THEME="afowler"
+
 HYPHEN_INSENSITIVE="true"
 DISABLE_AUTO_TITLE="true"
 ENABLE_CORRECTION="true"
 HIST_STAMPS="mm/dd/yyyy"
 plugins=(git rails git ruby)
+
 source $ZSH/oh-my-zsh.sh
 
 # Developer
