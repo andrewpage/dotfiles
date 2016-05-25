@@ -65,6 +65,9 @@ set ruler
 " Height of the command bar
 set cmdheight=1
 
+" Always show the statusline
+set laststatus=2
+
 " A buffer becomes hidden when it is abandoned
 set hid
 
@@ -190,6 +193,15 @@ map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
+
+" Disable arrow keys to force habit
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
+
+" Allow cursor to go one character past the end of a line
+set virtualedit=onemore
 
 " Close the current buffer
 map <leader>bd :Bclose<cr>:tabclose<cr>gT
@@ -375,16 +387,3 @@ function! <SID>BufcloseCloseIt()
      execute("bdelete! ".l:currentBufNum)
    endif
 endfunction
-
-" Make VIM remember position in file after reopen
-" if has("autocmd")
-"   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
-"endif
-
-" Custom
-noremap <Up> <NOP>
-noremap <Down> <NOP>
-noremap <Left> <NOP>
-noremap <Right> <NOP>
-
-set virtualedit=onemore
