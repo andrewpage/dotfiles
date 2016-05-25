@@ -3,7 +3,7 @@ export DEVELOPER="$HOME/Developer" # Path to my workspace
 export DOTFILES="$DEVELOPER/dotfiles" # Path to my personal dotfiles
 
 # oh-my-zsh configuration
-export ZSH=/Users/andrew/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 ZSH_THEME="afowler"
 ZSH_CUSTOM="$DOTFILES/zsh"
