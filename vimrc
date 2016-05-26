@@ -134,6 +134,8 @@ if has("gui_running")
     set guitablabel=%M\ %t
 endif
 
+set guifont=Meslo\ LG\ M\ Regular\ for\ Powerline:h14
+
 " Set utf8 as standard encoding and en_US as the standard language
 set encoding=utf8
 
