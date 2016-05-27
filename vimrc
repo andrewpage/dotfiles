@@ -8,12 +8,15 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
+
+Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'chriskempson/base16-vim'
-Plugin 'mileszs/ack.vim'
-Plugin 'tpope/vim-surround'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'godlygeek/tabular'
+Plugin 'mileszs/ack.vim'
+Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-haml'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
