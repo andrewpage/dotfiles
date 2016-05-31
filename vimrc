@@ -160,6 +160,10 @@ set noswapfile
 " File Switching
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 
+" File Navigation
+" let NERDTreeQuitOnOpen=1
+nmap <C-n> :NERDTreeToggle<CR>
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, tab and indent related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
