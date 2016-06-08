@@ -18,6 +18,7 @@ Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'othree/yajs.vim'
 Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'scrooloose/nerdtree'
+Plugin 'stephpy/vim-yaml'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-haml'
 
@@ -297,14 +298,14 @@ autocmd BufWrite *.coffee :call DeleteTrailingWS()
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Ag searching and cope displaying
-"    requires ag.vim - it's much better than vimgrep/grep
+" => Ack searching and cope displaying
+"    requires ack.vim - it's much better than vimgrep/grep
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " When you press gv you Ag after the selected text
 vnoremap <silent> gv :call VisualSelection('gv', '')<CR>
 
-" Open Ag and put the cursor in the right position
-map <leader>g :Ag
+" Open Ack and put the cursor in the right position
+map <leader>g :Ack
 
 " When you press <leader>r you can search and replace the selected text
 vnoremap <silent> <leader>r :call VisualSelection('replace', '')<CR>
