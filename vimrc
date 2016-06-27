@@ -14,6 +14,7 @@ Plugin 'chriskempson/base16-vim'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'mileszs/ack.vim'
+Plugin 'nginx.vim'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'othree/yajs.vim'
 Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
