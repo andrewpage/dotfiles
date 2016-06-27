@@ -164,6 +164,7 @@ let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclu
 " File Navigation
 " let NERDTreeQuitOnOpen=1
 nmap <C-n> :NERDTreeToggle<CR>
+nmap <C-f> :NERDTreeFind<CR>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, tab and indent related
