@@ -1,6 +1,6 @@
 source "${HOME}/.zgen/zgen.zsh"
 
-export EDITOR="vim"
+export EDITOR="mvim"
 export TERM='xterm-256color'
 export DEVELOPER="$HOME/Developer" # Path to my workspace
 export DOTFILES="$DEVELOPER/dotfiles" # Path to my personal dotfiles
