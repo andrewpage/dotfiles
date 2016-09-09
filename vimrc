@@ -14,9 +14,11 @@ Plugin 'chriskempson/base16-vim'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'mileszs/ack.vim'
+Plugin 'mxw/vim-jsx'
 Plugin 'nginx.vim'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'othree/yajs.vim'
+Plugin 'pangloss/vim-javascript'
 Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'scrooloose/nerdtree'
 Plugin 'stephpy/vim-yaml'
@@ -122,12 +124,18 @@ set tm=500
 " Add a bit extra margin to the left
 set foldcolumn=1
 
+" Show line numbers
+set number
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Enable syntax highlighting
 syntax enable
+
+" Enable JSX highlighting in .js files
+let g:jsx_ext_required = 0
 
 " Configure Colorscheme
 set background=dark
