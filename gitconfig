@@ -18,6 +18,10 @@
 	ci = commit
 	co = checkout
 	st = status
+  ap = add -p
+
+  unstage = reset HEAD
+  la = "!git config -l | grep alias | cut -c 7-"
 
 [push]
 	default = matching
