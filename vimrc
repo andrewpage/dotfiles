@@ -22,6 +22,7 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'scrooloose/nerdtree'
 Plugin 'stephpy/vim-yaml'
+Plugin 'terryma/vim-expand-region'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-haml'
 
