@@ -6,6 +6,7 @@ export DEVELOPER="$HOME/Developer" # Path to my workspace
 export DOTFILES="$DEVELOPER/dotfiles" # Path to my personal dotfiles
 
 export GOPATH="$DEVELOPER/Go"
+export GOBIN="$DEVELOPER/Go/bin"
 export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/bin:$PATH"
 
