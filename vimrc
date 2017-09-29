@@ -151,7 +151,7 @@ if has("gui_running")
     set guitablabel=%M\ %t
 endif
 
-set guifont=Meslo\ LG\ M\ Regular\ for\ Powerline:h14
+set guifont=Meslo\ LG\ L\ DZ\ for\ Powerline:h14
 
 " Set utf8 as standard encoding and en_US as the standard language
 set encoding=utf8
@@ -197,7 +197,6 @@ set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
 
-
 """"""""""""""""""""""""""""""
 " => Visual mode related
 """"""""""""""""""""""""""""""
@@ -205,7 +204,6 @@ set wrap "Wrap lines
 " Super useful! From an idea by Michael Naumann
 vnoremap <silent> * :<C-u>call VisualSelection('', '')<CR>/<C-R>=@/<CR><CR>
 vnoremap <silent> # :<C-u>call VisualSelection('', '')<CR>?<C-R>=@/<CR><CR>
-
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Moving around, tabs, windows and buffers
@@ -232,6 +230,9 @@ noremap <Up> <NOP>
 noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
+
+" Map jk to escape
+inoremap jk <Esc>
 
 " Allow cursor to go one character past the end of a line
 set virtualedit=onemore
