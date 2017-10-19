@@ -4,30 +4,35 @@ filetype off                  " required
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Plugins
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
 
-Plugin 'VundleVim/Vundle.vim'
+" Auto-install vim-plug
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-Plugin 'cakebaker/scss-syntax.vim'
-Plugin 'chriskempson/base16-vim'
-Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'easymotion/vim-easymotion'
-Plugin 'godlygeek/tabular'
-Plugin 'mileszs/ack.vim'
-Plugin 'mxw/vim-jsx'
-Plugin 'nginx.vim'
-Plugin 'ntpeters/vim-better-whitespace'
-Plugin 'othree/yajs.vim'
-Plugin 'pangloss/vim-javascript'
-Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
-Plugin 'scrooloose/nerdtree'
-Plugin 'stephpy/vim-yaml'
-Plugin 'terryma/vim-expand-region'
-Plugin 'tpope/vim-surround'
-Plugin 'tpope/vim-haml'
+  autocmd VimEnter * PlugInstall
+endif
 
-call vundle#end()            " required
+call plug#begin('~/.vim/plugged')
+
+Plug 'cakebaker/scss-syntax.vim'
+Plug 'chriskempson/base16-vim'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'easymotion/vim-easymotion'
+Plug 'godlygeek/tabular'
+Plug 'mileszs/ack.vim'
+Plug 'mxw/vim-jsx'
+Plug 'ntpeters/vim-better-whitespace'
+Plug 'othree/yajs.vim'
+Plug 'pangloss/vim-javascript'
+Plug 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
+Plug 'scrooloose/nerdtree'
+Plug 'stephpy/vim-yaml'
+Plug 'terryma/vim-expand-region'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-haml'
+
+call plug#end()            " required
 filetype plugin indent on    " required
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
