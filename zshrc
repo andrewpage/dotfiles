@@ -29,7 +29,7 @@ zgen load zsh-users/zsh-completions
 zgen load zsh-users/zsh-autosuggestions
 # End Plugins
 
-source $DEVELOPER/dotfiles/aliases.sh
+. $DEVELOPER/dotfiles/aliases.sh
 
 ## RVM Configuration
 export PATH="$PATH:$HOME/.rvm/bin"

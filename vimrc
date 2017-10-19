@@ -15,23 +15,19 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'cakebaker/scss-syntax.vim'
 Plug 'chriskempson/base16-vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'easymotion/vim-easymotion'
 Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
 Plug 'godlygeek/tabular'
 Plug 'mileszs/ack.vim'
-Plug 'mxw/vim-jsx'
 Plug 'ntpeters/vim-better-whitespace'
-Plug 'othree/yajs.vim'
-Plug 'pangloss/vim-javascript'
 Plug 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plug 'scrooloose/nerdtree'
-Plug 'stephpy/vim-yaml'
+Plug 'sheerun/vim-polyglot'
 Plug 'terryma/vim-expand-region'
+Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-surround'
-Plug 'tpope/vim-haml'
 
 call plug#end()            " required
 filetype plugin indent on    " required

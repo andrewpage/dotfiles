@@ -17,4 +17,14 @@ do
   ln -s $DOTFILES/$f $HOME/.$f
 done
 
+# Install HomeBrew packages
+brew install macvim
+brew install hub
+brew install git
+brew install nginx
+brew install tmux
+brew install fzf
+brew install the_silver_searcher
+brew install zsh
+
 echo "Done."
