@@ -32,6 +32,7 @@ Plug 'stephpy/vim-yaml'
 Plug 'terryma/vim-expand-region'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-haml'
+Plug 'vim-scripts/nginx.vim'
 
 call plug#end()            " required
 filetype plugin indent on    " required

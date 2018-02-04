@@ -35,6 +35,9 @@ zgen load zsh-users/zsh-autosuggestions
 export PATH="$PATH:$HOME/.rvm/bin"
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
+# Python Configuration
+export PATH="$PATH:$HOME/Library/Python/3.6/bin"
+
 bindkey -e
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
