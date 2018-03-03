@@ -1,14 +1,10 @@
-source "${HOME}/.zgen/zgen.zsh"
+. "${HOME}/.zgen/zgen.zsh"
 
-export EDITOR="mvim"
-export TERM='xterm-256color'
 export DEVELOPER="$HOME/Developer" # Path to my workspace
 export DOTFILES="$DEVELOPER/dotfiles" # Path to my personal dotfiles
 
-export GOPATH="$DEVELOPER/Go"
-export GOBIN="$DEVELOPER/Go/bin"
-export PATH="/usr/local/sbin:$PATH"
-export PATH="/usr/local/bin:$PATH"
+. $DOTFILES/load.sh
+
 
 ZSH_THEME="afowler"
 HYPHEN_INSENSITIVE="true"
@@ -28,15 +24,6 @@ zgen oh-my-zsh themes/afowler
 zgen load zsh-users/zsh-completions
 zgen load zsh-users/zsh-autosuggestions
 # End Plugins
-
-. $DEVELOPER/dotfiles/aliases.sh
-
-## RVM Configuration
-export PATH="$PATH:$HOME/.rvm/bin"
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-
-# Python Configuration
-export PATH="$PATH:$HOME/Library/Python/3.6/bin"
 
 bindkey -e
 
