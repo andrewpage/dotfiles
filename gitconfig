@@ -28,4 +28,7 @@
 
 [core]
 	editor = /usr/bin/vim
-	excludesfile = ~/.gitignore
+	excludesfile = /Users/andrew/.gitignore
+
+[include]
+	path = ~/.gitshared
