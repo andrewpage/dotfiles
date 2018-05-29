@@ -5,7 +5,6 @@ export DOTFILES="$DEVELOPER/dotfiles" # Path to my personal dotfiles
 
 . $DOTFILES/load.sh
 
-
 ZSH_THEME="afowler"
 HYPHEN_INSENSITIVE="true"
 DISABLE_AUTO_TITLE="true"
@@ -28,3 +27,5 @@ zgen load zsh-users/zsh-autosuggestions
 bindkey -e
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+export PATH="/opt/miniconda3/bin:$PATH"
