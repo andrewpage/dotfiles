@@ -30,3 +30,5 @@ bindkey -e
 
 export PATH="/opt/miniconda3/bin:$PATH"
 export PATH="/Users/andrew/Library/Python/2.7/bin/:$PATH"
+
+[ -f ~/.vars.sh ] && source ~/.vars.sh
