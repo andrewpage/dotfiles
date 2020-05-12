@@ -7,3 +7,4 @@ export PATH="/usr/local/bin:$PATH"
 . $DOTFILES/env/aliases.sh
 . $DOTFILES/env/ruby.sh
 . $DOTFILES/env/go.sh
+. $DOTFILES/env/git.sh

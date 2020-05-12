@@ -32,3 +32,6 @@ export PATH="/opt/miniconda3/bin:$PATH"
 export PATH="/Users/andrew/Library/Python/2.7/bin/:$PATH"
 
 [ -f ~/.vars.sh ] && source ~/.vars.sh
+
+# Added by serverless binary installer
+export PATH="$HOME/.serverless/bin:$PATH"

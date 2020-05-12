@@ -32,3 +32,5 @@
 
 [include]
 	path = ~/.gitshared
+[credential]
+	helper = store
