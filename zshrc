@@ -35,3 +35,5 @@ export PATH="/Users/andrew/Library/Python/2.7/bin/:$PATH"
 
 # Added by serverless binary installer
 export PATH="$HOME/.serverless/bin:$PATH"
+export PATH="/opt/homebrew/opt/node@16/bin:$PATH"
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
